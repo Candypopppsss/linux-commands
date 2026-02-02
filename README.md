@@ -1,40 +1,64 @@
 # linux-commands
 ### basic commands:
+
+#### pwd 
+it is print working directory
 ```
-pwd->print working directory
+pwd
 ```
+#### mkdir
+it is make directory ... 
+1. for creating one directory .
+
 ```
-mkdir->make directory     (creating only one directory)
+mkdir dir1
 ```
+2. for creating  multiple directories.
 ```
- mkdir -vp a/b/c    (creating more than one directory at once)
+ mkdir -vp a/b/c    
 ```
+#### ls
+to list out the contents.
 ```
-ls->list
+ls
 ```
+#### cd
+to chhange the directory.
+
 ```
-cd->change directory
+cd
 ```
+to move to the parent directory.
 ```
- cd .. ->will move to the parent directory
+ cd .. -
 ```
+to move to the previous directory.
 ```
-cd -  -> will move you to the previous directory
+cd -  
 ```
+#### touch
+touch will create a new file or change time stamp of an existing file(updation).
 ```
-touch ->touch command will create a new file or change time stamp of an existing file(updation).
+touch 
 ```
+#### dir
+ it is used to list directory contents...(works equivalent to ls -C -b)
 ```
-dir -> is used to list directory contents.( dir is equivalent to ls -C -b)
+dir 
 ```
+#### clear 
+yayyy terminal screen is cleared!!!
 ```
-clear-> terminal screen is cleared!!!
+clear
 ```
+#### echo 
+echo simply  displays the text on the screen .
 ```
-echo -> echo simply displays the text on the screen (syntax: echo "hello")
+echo "hello"
 ```
+for inserting a text into a file:
 ```
-echo "hello" >> hello.txt-> create a hello.txt file and puts the text hello inside the file.
+echo "hello" >> hello.txt
 ```
 ### cat
 ##### cat for reaing a file
