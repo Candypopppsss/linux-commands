@@ -87,6 +87,23 @@ stat hello.txt
  ```
 stat dir1
 ```
+##### du 
+du -> disk usage ... it will basically display disk usage
+```
+du
+```
+ to  make it into a human understandable output we can just run the below command   
+ where h is to humanize and x is to switch and exclude other files
+
+ ```
+du -xh ~
+```
+sometimes du can take alot of time so we use max.depth
+
+```
+du --max-depth 3 ~
+```
+
 
 
 
