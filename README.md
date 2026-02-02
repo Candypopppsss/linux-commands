@@ -81,6 +81,12 @@ tac hello.txt
 ```
 ###### bat
 can  scroll automatically , shows syntax , clean and systematic..
+bat only works if it is installed on your linux:
+for installation :
+```
+sudo apt install bat
+```
+then run this command:
 ```
 bat hello.txt
 ```
