@@ -90,6 +90,10 @@ then run this command:
 ```
 bat hello.txt
 ```
+in debian the syntax is different 
+```
+batcat hello.txt
+```
 ##### head
 head by default displays first 10 lines in a file
 ```
@@ -133,6 +137,24 @@ sometimes du can take alot of time so we use max.depth
 ```
 du --max-depth 3 ~
 ```
+##### cp 
+this command is used to copy the content from one file to another file 
+```
+cp dir1 dir2
+```
+the only thing which we should remember while running the command cp is  both the source and the destination should be present in the command line
+
+##### md5sum
+```
+md5sum hello.txt
+```
+ this command will give a calculated checksum for a file.This helps with detecting accidental or deliberate file corruption.
+ ##### mv
+  this command   moves the file  form one dir to another dir
+  ```
+mv one two
+```
+ 
 
 
 
