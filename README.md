@@ -154,6 +154,12 @@ md5sum hello.txt
   ```
 mv one two
 ```
+##### ln
+this command is used to create the link 
+```
+ln
+```
+
  
 
 
