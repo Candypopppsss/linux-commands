@@ -159,6 +159,33 @@ this command is used to create the link
 ```
 ln
 ```
+##### rm -rf
+this command is used to delete any directory  whether it is an empty one or non-empty one..
+```
+rm -r dir1
+```
+ for removing a directory there is also another  command.. 
+ ```
+rmdir dir1
+```
+
+##### tree
+ tree command in linux basically gives you the  tree   for all the directories present...
+ ```
+tree
+```
+ #### ln 
+ ln means link
+ this command  gives a symbolic link...
+ this specific command line is used to create a link for your directory..
+ ```
+ln -s dir1 softlink
+```
+now type the below command to access it and see the attributes
+```
+stat softlink
+```
+
 
  
 
